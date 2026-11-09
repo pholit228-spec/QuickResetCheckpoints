@@ -1,0 +1,1 @@
+The build workflow is defined in build.yml. It builds Windows, macOS, Android 32-bit, and Android 64-bit targets.
