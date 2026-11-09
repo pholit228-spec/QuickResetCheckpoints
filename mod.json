@@ -1,45 +1,45 @@
 {
-	"geode": "4.6.0",
-	"gd": {
-		"win": "*",
-		"mac": "*",
-		"android": "*"
-	},
-	"id": "user.quick-reset-checkpoints",
-	"name": "Quick Reset & Hold Checkpoints",
-	"version": "v1.0.0",
-	"developer": "user",
-	"description": "R - instant new attempt. Hold Z in practice mode - checkpoints with no delay.",
-	"settings": {
-		"quick-reset": {
-			"type": "bool",
-			"name": "Quick Reset (R)",
-			"description": "Press <cy>R</c> to instantly start a new attempt (works during the death animation too).",
-			"default": true
-		},
-		"practice-reset-from-start": {
-			"type": "bool",
-			"name": "R in practice: from the start",
-			"description": "Off: <cy>R</c> goes back to the last checkpoint. On: <cy>R</c> restarts the whole level.",
-			"default": false
-		},
-		"hold-checkpoints": {
-			"type": "bool",
-			"name": "Hold Z for checkpoints",
-			"description": "In practice mode, <cy>holding Z</c> keeps placing checkpoints.",
-			"default": true
-		},
-		"checkpoint-interval": {
-			"type": "float",
-			"name": "Checkpoint interval (sec)",
-			"description": "Delay between checkpoints while Z is held. <cy>0</c> = a checkpoint every frame (no delay).",
-			"default": 0.0,
-			"min": 0.0,
-			"max": 2.0,
-			"control": {
-				"input": true,
-				"slider": true
-			}
-		}
-	}
+  "geode": "v5.11.2",
+  "gd": {
+    "win": "*",
+    "mac": "*",
+    "android": "*"
+  },
+  "id": "user.quick-reset-checkpoints",
+  "name": "Quick Reset & Hold Checkpoints",
+  "version": "v1.0.0",
+  "developer": "user",
+  "description": "R - instant new attempt. Hold Z in practice mode - checkpoints with no delay.",
+  "settings": {
+    "quick-reset": {
+      "type": "bool",
+      "name": "Quick Reset (R)",
+      "description": "Press <cy>R</c> to instantly start a new attempt (works during the death animation too).",
+      "default": true
+    },
+    "practice-reset-from-start": {
+      "type": "bool",
+      "name": "R in practice: from the start",
+      "description": "Off: <cy>R</c> goes back to the last checkpoint. On: <cy>R</c> restarts the whole level.",
+      "default": false
+    },
+    "hold-checkpoints": {
+      "type": "bool",
+      "name": "Hold Z for checkpoints",
+      "description": "In practice mode, <cy>holding Z</c> keeps placing checkpoints.",
+      "default": true
+    },
+    "checkpoint-interval": {
+      "type": "float",
+      "name": "Checkpoint interval (sec)",
+      "description": "Delay between checkpoints while Z is held. <cy>0</c> = a checkpoint every frame (no delay).",
+      "default": 0,
+      "min": 0,
+      "max": 2,
+      "control": {
+        "input": true,
+        "slider": true
+      }
+    }
+  }
 }
