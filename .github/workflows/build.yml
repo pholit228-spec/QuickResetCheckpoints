@@ -35,7 +35,7 @@ jobs:
           combine: true
           target: ${{ matrix.config.target }}
           bindings: vwtfafa/bindings
-          bindings-ref: fix/2.2081-depends
+          bindings-ref: c0c808828d456e54164b60a589b0edd6172b327a
 
   package:
     name: Package builds
